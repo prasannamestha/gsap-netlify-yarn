@@ -1,4 +1,4 @@
-# Installing club greensock packages in netlify
+# Installing club greensock packages in netlify & vercel
 
 This is a sample project to demonstrate how to install club greensock packages such as @gsap/simply, @gsap/shockingly, @gsap/business in netlify.
 
@@ -20,5 +20,9 @@ Feel free to change "/shockingly" to any other club greensock package name of yo
 
 3. Then add the environment variable `PRIVJS_TOKEN` in the Netlify site settings and set the value as the private token provided to you by Greensock:
 ![image](https://user-images.githubusercontent.com/24790143/146558673-4be612b8-7e98-474a-9b80-a9726c0df96c.png)
+
+If you are deploying to Vercel; add environment variables under site settings like this:
+![image](https://user-images.githubusercontent.com/24790143/147608486-a3bf1132-6dcb-4cb6-b069-2a5d84632c30.png)
+
 
 If you still face any issues; email us at support@privjs.com
